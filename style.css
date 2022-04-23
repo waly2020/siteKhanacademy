@@ -1,0 +1,243 @@
+*,::before,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+}
+.rech > *{
+    display: inline-block;
+    margin-right: 30px;
+}
+.rech input{
+    width: 200px;
+    height: 42px;
+    border: none;
+    border-radius: 7px;
+    padding-left: 8px;
+    background-color: #f0f1f2;
+}
+.rech p{
+    color: #1865F2;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 507px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* background-color: royalblue; */
+    overflow: hidden;
+}
+.texte_header{
+    padding-top: 60px;
+}
+header h1{
+    font-family: 'Source Serif Pro';
+    font-size: 53px;
+}
+header p{
+    color: #21242c;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    width: 79%;
+    margin: 20px 0;
+}
+.header_btns{
+    margin: 20px 0;
+}
+.header_btns button{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #1865F2;
+    color: #FFF;
+    font-weight: 500;
+}
+.images_header{
+    position: relative;
+}
+.images_header > div{
+    position: absolute;
+}
+.images_header > div > img{
+    width: 100%;
+   
+}
+.hd_img6{
+    width: 310px;
+    height: 165px;
+    /* background-color: rgb(97, 80, 59); */
+    right: 10px;
+    bottom: 0;
+}
+.hd_img5{
+    width: 390px;
+    height: 209px;
+    right: 10px;
+    bottom: 50px;
+    /* background-color: brown; */
+}
+.hd_img4{
+    width: 207px;
+    height: 228px;
+    right: 300px;
+    bottom: 90px;
+    /* background-color: darkorange; */
+}
+.hd_img3{
+    width: 317px;
+    height: 341px;
+    right: 60px;
+    top: 20px;
+}
+.hd_img2{
+    width: 500px;
+    height: 219px;
+    left: 100px;
+    top: 20px;
+    /* background-color: darkcyan; */
+}
+.section1{
+    width: 100%;
+    height: 760px;
+    padding: 100px 0;
+    background-color: #f7f5f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10% 82% 27% 41% / 0% 5% 3% 4%;
+}
+.section1 > h2{
+    font-size: 44px;
+    font-family: 'Source Serif Pro';
+    color: #21242c;
+}
+.section1 article{
+    width: 310px;
+    min-height: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px;
+}
+.articles{
+    display: flex;
+}
+.titre-article{
+    font-size: 25px;
+    font-family: 'Source Serif Pro';
+    text-align: center;
+    line-height: 30px;
+}
+.desc{
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 572px;
+    margin: 0 74px 200px 0;
+}
+.section2 > div{
+    position: relative;
+}
+.section2 .imgs > div{
+    position: absolute;
+    width: 328px;
+    height: 457px;
+}
+.section2 img{
+    width: 100%;
+}
+.imgs .img6{
+    left: 0;
+    top: 60%;
+    transform: translate(-31%,-50%);
+}
+.imgs .img5{
+    left: 0;
+    top: 60%;
+    transform: translate(-25%,-50%);
+}
+.imgs .img4{
+    left: 0;
+    top: 60%;
+    transform: translate(10%,-57%);
+}
+.imgs .img3{
+    left: 0;
+    top: 60%;
+    transform: translate(18%,-57%);
+}
+.imgs .img2{
+    left: 0;
+    top: 60%;
+    transform: translate(67%,-63%);
+}
+.imgs .img1{
+    left: 0;
+    top: 60%;
+    transform: translate(75%,-62%);
+}
+.section2 .texte{
+    padding: 40px 0;
+}
+.section2 .texte h2{
+    font-size: 44px;
+    font-family: 'Source Serif Pro';
+    color: #21242c;
+}
+.section2 .texte .para{
+    margin: 30px 0;
+    font-family: "Lato", sans-serif;
+    color: #aaa;
+    font-weight: 200;
+}
+.section2 .texte .para2{
+    width: 66%;
+    line-height: 30px;
+    margin: 20px 0;
+    color: #21242c;
+    font-family: "Lato", sans-serif;
+}
+.section2 .texte button{
+    padding: 20px;
+    width: 286px;
+    height: 60px;
+    border: none;
+    color: #fff;
+    background-color: #1865f2;
+    border-radius: 6px;
+}
+.ss2 .texte{
+    padding: 100px;
+}
